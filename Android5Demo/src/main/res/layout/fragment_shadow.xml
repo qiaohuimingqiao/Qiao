@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <TextView
+                    android:background="#fff"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:text="0dp"
+                    android:elevation="0dp"/>
+                <TextView
+                    android:background="#fff"
+                    android:layout_weight="1"
+                    android:text="2dp"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="2dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:text="4dp"
+                    android:background="#fff"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:layout_width="0dp"
+                    android:text="6dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="6dp"/>
+                <TextView
+                    android:text="8dp"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="8dp"/>
+                <TextView
+                    android:text="10dp"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="10dp"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:translationZ="4dp"
+                    android:elevation="4dp"
+                    android:text="4+4dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="8dp"
+                    android:text="8dp"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:translationZ="8dp"
+                    android:text="0+8dp"
+                    android:elevation="0dp"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="@drawable/circle_bg"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    android:outlineProvider="none"
+                    android:text="none"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:background="@drawable/circle_bg"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    android:outlineProvider="paddedBounds"
+                    android:text="paddedBounds"/>
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="@drawable/circle_bg"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    android:outlineProvider="background"
+                    android:text="background"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:background="@drawable/circle_bg"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    android:outlineProvider="bounds"
+                    android:text="bounds"/>
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/shadow_raduis_rect"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle_bg_with_alpha"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    android:text="圆角矩形"/>
+                <TextView
+                    android:id="@+id/shadow_trangle"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle_bg_with_alpha"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    android:text="三角形"/>
+                <TextView
+                    android:id="@+id/shadow_small_rect"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle_bg_with_alpha"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    android:text="小方形"/>
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/shadow_raduis_rect2"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle_bg_with_alpha"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    android:text="圆角矩形"/>
+                <TextView
+                    android:id="@+id/shadow_trangle2"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle_bg_with_alpha"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    android:text="三角形"/>
+                <TextView
+                    android:id="@+id/shadow_small_rect2"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle_bg_with_alpha"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    android:text="小方形"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>

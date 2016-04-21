@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/start_explode"
+        android:layout_width="200dp"
+        android:text="explode"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/start_slide"
+        android:layout_width="200dp"
+        android:text="slide"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/start_fade"
+        android:layout_width="200dp"
+        android:text="fade"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/start_share_element"
+        android:layout_width="200dp"
+        android:text="shareElement"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/start_element"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/palette"/>
+    <ImageView
+        android:id="@+id/start_element2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/palette2"/>
+</LinearLayout>

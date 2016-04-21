@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <TextView
+                    android:text="ring_add"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ring_add"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp" />
+                <TextView
+                    android:text="ring_multiply"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ring_multiply"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp" />
+                <TextView
+                    android:text="ringg_screen"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ring_screen"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:text="src_atop"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ring_src_atop"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp" />
+                <TextView
+                    android:text="src_in"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ring_src_in"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp" />
+                <TextView
+                    android:text="src_over"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ring_src_over"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:text="原始"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ring"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp" />
+                <TextView
+                    android:clickable="true"
+                    android:text="选择器"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ring_selector"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp" />
+            </TableRow>
+
+        </TableLayout>
+        <ImageView
+            android:id="@+id/drawable_iv"
+            android:src="@drawable/palette"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:text="MutedColor"
+                android:id="@+id/drawable_color_1"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="DarkMuted"
+                android:id="@+id/drawable_color_2"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Vibrant"
+                android:id="@+id/drawable_color_3"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="DarkVibrant"
+                android:id="@+id/drawable_color_4"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="LightVibrant"
+                android:id="@+id/drawable_color_5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="LightMuted"
+                android:id="@+id/drawable_color_6"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="100dp"
+            android:src="@drawable/heart"
+            android:layout_height="100dp" />
+        <ImageView
+            android:src="@drawable/heart"
+            android:layout_width="300dp"
+            android:layout_height="300dp" />
+    </LinearLayout>
+</ScrollView>
