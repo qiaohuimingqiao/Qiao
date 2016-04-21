@@ -1,2 +1,3 @@
 include ':Demo1_an0.5'
 include 'Android5Demo'
+include ':app'

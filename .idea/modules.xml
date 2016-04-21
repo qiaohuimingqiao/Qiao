@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/Android50.iml" filepath="$PROJECT_DIR$/Android50.iml" />
       <module fileurl="file://$PROJECT_DIR$/Android5Demo/Android5Demo.iml" filepath="$PROJECT_DIR$/Android5Demo/Android5Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo1_an0.5/Demo1_an0.5.iml" filepath="$PROJECT_DIR$/Demo1_an0.5/Demo1_an0.5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiao.iml" filepath="$PROJECT_DIR$/qiao.iml" />
     </modules>
   </component>
 </project>
